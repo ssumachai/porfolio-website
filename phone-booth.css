@@ -1,0 +1,76 @@
+@media only screen and (max-width: 600px) {
+    body {
+        background-size: contain; /* Adjust background size for smaller screens */
+    }
+}
+
+body{
+    height: 100vh;
+    width: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #FEFAE0;
+    background-image: url(https://media.discordapp.net/attachments/890667694045667388/1208238659376128000/54776222.webp?ex=65e28ef0&is=65d019f0&hm=ec002f62ec03f1e1b62bc20561af34f4032dc1f85efac4ef987dd268029a3c4a&=&format=webp&width=1079&height=1617);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #283618;
+}
+
+h1{
+    color: #6AB0B7;
+    font-family: 'Archivo', sans-serif;
+}
+
+p{
+    color: black;
+    font-family: 'Benne', sans-serif;
+}
+
+.flexbox-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flexbox-item{
+    flex: auto;
+    width: 200px;
+    margin: 10px;
+
+    /*Used for debugging
+    border: 3px solid #333; */
+
+    text-align: center;
+    align-items: center;
+}
+
+button{
+    background-color: #F2BDD9;
+    color: #311722;
+    width: 200px;
+    height: 50px;
+}
+
+@-ms-viewport{
+    width: device-width;
+  }
+
+  
+@font-face {
+    font-family: 'Archivo';
+    src: url('path/to/archivo-semibold.woff2') format('woff2'), /* Modern Browsers */
+         url('path/to/archivo-semibold.woff') format('woff'); /* Legacy Browsers */
+    font-weight: 600; /* Semibold weight */
+    font-style: normal; /* Normal font style */
+}
+
+@font-face {
+    font-family: 'Benne';
+    src: url('path/to/benne-regular.woff2') format('woff2'), /* Modern Browsers */
+         url('path/to/benne-regular.woff') format('woff'); /* Legacy Browsers */
+    font-weight: normal; /* Regular weight */
+    font-style: normal; /* Normal font style */
+}
+
+/* Palette Used -> https://coolors.co/palette/606c38-283618-fefae0-dda15e-bc6c25 */

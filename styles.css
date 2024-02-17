@@ -1,13 +1,17 @@
 body{
     background-color: #FEFAE0;
     color: #283618;
+    align-items: center;
 }
 
 .flexbox-container{
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .flexbox-item{
+    flex: auto;
     width: 200px;
     margin: 10px;
 
@@ -23,5 +27,9 @@ button{
     width: 200px;
     height: 50px;
 }
+
+@-ms-viewport{
+    width: device-width;
+  }
 
 /* Palette Used -> https://coolors.co/palette/606c38-283618-fefae0-dda15e-bc6c25 */
